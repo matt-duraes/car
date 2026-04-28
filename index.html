@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omoda Jaecoo | O Futuro da Mobilidade Premium</title>
+    <meta name="description"
+        content="Conectamos você a um futuro ecológico com veículos sustentáveis, tecnologia inovadora e design de ponta.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-text">AETHER</span>
+                <span class="logo-dot">.</span>
+            </a>
+
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#tecnologia" class="nav-link">Tecnologia</a></li>
+                    <li><a href="#modelos" class="nav-link">Modelos</a></li>
+                    <li><a href="#blog" class="nav-link">Blog</a></li>
+                    <li><a href="#sobre" class="nav-link">História</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="btn btn-outline" id="btn-interesse-nav">Tenho Interesse</button>
+                <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+                    <i class="ph ph-list"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <img src="assets/images/hero_car.png" alt="Carro SUV Premium Escuro" class="hero-img">
+            <div class="hero-overlay"></div>
+        </div>
+
+        <div class="container hero-content">
+            <h1 class="hero-title animate-up">O Futuro da Mobilidade<br>Chegou.</h1>
+            <p class="hero-subtitle animate-up delay-1">Estilo, Inovação e Sustentabilidade em perfeita harmonia. Para
+                espíritos jovens e ativos, prontos para novas possibilidades.</p>
+            <div class="hero-cta animate-up delay-2">
+                <a href="#modelos" class="btn btn-primary">Descubra a Linha</a>
+                <button class="btn btn-text" id="btn-interesse-hero">Tenho Interesse <i
+                        class="ph ph-arrow-right"></i></button>
+            </div>
+        </div>
+
+        <div class="scroll-indicator animate-pulse">
+            <span class="scroll-text">Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="tecnologia">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="badge">Inovação</span>
+                <h2 class="section-title">Tecnologia que <span class="text-gradient">Antecipa</span></h2>
+                <p class="section-desc">Design de ponta encontra sistemas inteligentes para criar uma experiência de
+                    condução inigualável.</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card glass reveal">
+                    <div class="feature-icon">
+                        <i class="ph ph-cpu"></i>
+                    </div>
+                    <h3>Inteligência Artificial Integrada</h3>
+                    <p>Sistemas autônomos que aprendem com o seu estilo de condução para máxima eficiência e segurança.
+                    </p>
+                </div>
+
+                <div class="feature-card glass reveal delay-1">
+                    <div class="feature-icon">
+                        <i class="ph ph-leaf"></i>
+                    </div>
+                    <h3>Ecossistema Sustentável</h3>
+                    <p>Opções 100% elétricas e híbridas leves, reduzindo a pegada de carbono sem comprometer a
+                        performance.</p>
+                </div>
+
+                <div class="feature-card glass reveal delay-2">
+                    <div class="feature-icon">
+                        <i class="ph ph-shield-check"></i>
+                    </div>
+                    <h3>Segurança Ativa 360º</h3>
+                    <p>Sensores ultrassônicos e radares de ondas milimétricas garantem proteção total em qualquer
+                        ambiente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modelos Showcase Section -->
+    <section class="showcase" id="modelos">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Nossos <span class="text-gradient">Modelos</span></h2>
+            </div>
+
+            <div class="showcase-container">
+                <!-- Modelo 1 -->
+                <div class="showcase-item reveal">
+                    <div class="showcase-image-wrapper">
+                        <img src="assets/images/showcase_car_1.png" alt="AETHER S7 - Sedan Elétrico Branco"
+                            class="showcase-img">
+                    </div>
+                    <div class="showcase-info glass">
+                        <div class="model-badge">100% Elétrico</div>
+                        <h3 class="model-name">AETHER S7</h3>
+                        <p class="model-desc">O sedan elétrico premium que redefine a elegância. Aerodinâmica perfeita e
+                            autonomia estendida para cruzar fronteiras.</p>
+                        <ul class="model-specs">
+                            <li>
+                                <span class="spec-value">650<small>km</small></span>
+                                <span class="spec-label">Autonomia (WLTP)</span>
+                            </li>
+                            <li>
+                                <span class="spec-value">3.8<small>s</small></span>
+                                <span class="spec-label">0-100 km/h</span>
+                            </li>
+                        </ul>
+                        <a href="#" class="btn btn-primary w-full text-center mt-4">Conhecer S7</a>
+                    </div>
+                </div>
+
+                <!-- Modelo 2 -->
+                <div class="showcase-item reveal reverse">
+                    <div class="showcase-image-wrapper">
+                        <img src="assets/images/showcase_car_2.png" alt="AETHER X9 - SUV Híbrido Verde Escuro"
+                            class="showcase-img">
+                    </div>
+                    <div class="showcase-info glass">
+                        <div class="model-badge">Híbrido Premium</div>
+                        <h3 class="model-name">AETHER X9</h3>
+                        <p class="model-desc">Um SUV robusto, luxuoso e preparado para o off-road. A combinação perfeita
+                            entre força e sofisticação futurista.</p>
+                        <ul class="model-specs">
+                            <li>
+                                <span class="spec-value">1200<small>km</small></span>
+                                <span class="spec-label">Autonomia Combinada</span>
+                            </li>
+                            <li>
+                                <span class="spec-value">AWD</span>
+                                <span class="spec-label">Tração Inteligente</span>
+                            </li>
+                        </ul>
+                        <a href="#" class="btn btn-primary w-full text-center mt-4">Conhecer X9</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="badge">Novidades</span>
+                <h2 class="section-title">Últimas do <span class="text-gradient">Universe</span></h2>
+                <p class="section-desc">Fique por dentro das inovações, tendências e notícias do mundo AETHER.</p>
+            </div>
+
+            <div class="blog-grid">
+                <!-- Post 1 -->
+                <article class="blog-card glass reveal">
+                    <div class="blog-image">
+                        <img src="assets/images/showcase_car_1.png" alt="O futuro da IA automotiva">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">24 Abril, 2026</span>
+                        <h3 class="blog-title">A Revolução da IA na Condução Autônoma</h3>
+                        <p class="blog-excerpt">Como nossos novos sistemas preditivos estão tornando as estradas mais
+                            seguras e a viagem mais fluida do que nunca.</p>
+                        <a href="#" class="blog-link">Ler mais <i class="ph ph-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Post 2 -->
+                <article class="blog-card glass reveal delay-1">
+                    <div class="blog-image">
+                        <img src="assets/images/showcase_car_2.png" alt="Baterias de estado sólido">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">18 Abril, 2026</span>
+                        <h3 class="blog-title">O Avanço das Baterias de Estado Sólido</h3>
+                        <p class="blog-excerpt">Entenda a tecnologia por trás do salto de autonomia de 1000km nos
+                            próximos modelos da série X.</p>
+                        <a href="#" class="blog-link">Ler mais <i class="ph ph-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Post 3 -->
+                <article class="blog-card glass reveal delay-2">
+                    <div class="blog-image">
+                        <img src="assets/images/hero_car.png" alt="Design sustentável">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-date">10 Abril, 2026</span>
+                        <h3 class="blog-title">Design Circular: Zero Desperdício</h3>
+                        <p class="blog-excerpt">Conheça nosso novo processo de fabricação que reutiliza 98% dos
+                            materiais no ecossistema AETHER.</p>
+                        <a href="#" class="blog-link">Ler mais <i class="ph ph-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- História / Timeline Section -->
+    <section class="history" id="sobre">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="badge">Nossa História</span>
+                <h2 class="section-title">A Jornada <span class="text-gradient">AETHER</span></h2>
+                <p class="section-desc">Relembre os marcos que definiram a evolução da nossa tecnologia e design.</p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass">
+                        <div class="timeline-year">2020</div>
+                        <h3 class="timeline-title">O Início de Tudo</h3>
+                        <p>Fundação da AETHER com a missão de revolucionar a mobilidade elétrica e sustentável no mundo.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal delay-1">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass">
+                        <div class="timeline-year">2021</div>
+                        <h3 class="timeline-title">Primeiro Protótipo</h3>
+                        <p>Apresentação do conceito X-Alpha no Salão Internacional do Automóvel, ganhando prêmios de
+                            design.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass">
+                        <div class="timeline-year">2022</div>
+                        <h3 class="timeline-title">Fábrica Sustentável</h3>
+                        <p>Inauguração da nossa primeira fábrica zero-emissões, movida 100% a energia solar e eólica.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal delay-1">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass">
+                        <div class="timeline-year">2023</div>
+                        <h3 class="timeline-title">Lançamento do S7</h3>
+                        <p>O sedan AETHER S7 entra no mercado global, quebrando recordes de vendas na categoria premium
+                            elétrica.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass">
+                        <div class="timeline-year">2024</div>
+                        <h3 class="timeline-title">Tecnologia Autônoma Nível 4</h3>
+                        <p>Integração do nosso sistema proprietário de IA para condução autônoma avançada em toda a
+                            linha de veículos.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal delay-1">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass">
+                        <div class="timeline-year">2025</div>
+                        <h3 class="timeline-title">O Novo Padrão</h3>
+                        <p>Apresentação da tecnologia de baterias de estado sólido e expansão global para mais de 40
+                            países.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section reveal">
+        <div class="container cta-container glass">
+            <h2>Pronto para viver o futuro?</h2>
+            <p>Agende agora o seu test drive e experimente a nova era da mobilidade.</p>
+            <div class="cta-form">
+                <input type="email" placeholder="Seu melhor e-mail" class="form-input">
+                <button class="btn btn-primary">Agendar Agora</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-text">AETHER</span><span class="logo-dot">.</span>
+                    </a>
+                    <p class="footer-text">Conectando você a um futuro ecológico com veículos sustentáveis, tecnologia
+                        inovadora e design de ponta.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="ph ph-instagram-logo"></i></a>
+                        <a href="#"><i class="ph ph-youtube-logo"></i></a>
+                        <a href="#"><i class="ph ph-twitter-logo"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Modelos</h4>
+                    <ul>
+                        <li><a href="#">AETHER S7 (Elétrico)</a></li>
+                        <li><a href="#">AETHER X9 (Híbrido)</a></li>
+                        <li><a href="#">Ofertas</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="#">Manutenção e Garantia</a></li>
+                        <li><a href="#">Assistência Rodoviária</a></li>
+                        <li><a href="#">Concessionárias</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Atendimento</h4>
+                    <ul>
+                        <li><a href="#">Fale Conosco</a></li>
+                        <li><a href="#">Trabalhe Conosco</a></li>
+                        <li><a href="tel:08001234567">0800 123 4567</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 AETHER Mobility. Todos os direitos reservados.</p>
+                <div class="footer-legal">
+                    <a href="#">Política de Privacidade</a>
+                    <a href="#">Termos de Uso</a>
+                    <a href="#">Política de Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top" aria-label="Voltar ao topo">
+        <i class="ph ph-caret-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+
+    <!-- Modal Interesse -->
+    <div class="modal-overlay" id="interesse-modal">
+        <div class="modal-container glass">
+            <button class="modal-close" id="modal-close"><i class="ph ph-x"></i></button>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="badge">Acesso Exclusivo</span>
+                    <h2 class="text-gradient">Antecipe o Futuro</h2>
+                    <p>Cadastre-se para receber informações em primeira mão e agendar uma experiência exclusiva com a
+                        linha AETHER.</p>
+                </div>
+                <form class="modal-form">
+                    <div class="form-group">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" class="form-input" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" class="form-input" placeholder="seu.email@exemplo.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="modelo">Modelo de Interesse</label>
+                        <select id="modelo" class="form-input" required>
+                            <option value="">Selecione um modelo</option>
+                            <option value="s7">AETHER S7 (Elétrico)</option>
+                            <option value="x9">AETHER X9 (Híbrido)</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-full" style="margin-top: 16px;">Garantir Meu
+                        Lugar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
